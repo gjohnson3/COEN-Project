@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
 
     public float jumpForce = 20;
     public Transform feet;
+    public Transform armR;
+    public Transform armL;
     public LayerMask groundLayers;
     float mx;
     bool isGrounded;
@@ -23,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         mx = Input.GetAxisRaw("Horizontal");
-        if (Input.GetButtonDown("Jump")&&IsGrounded()){
+        if (Input.GetButtonDown("Jump")&&((IsGrounded())||(OnWall()))){
             Jump();
         }
     }
@@ -38,9 +40,22 @@ public class PlayerMovement : MonoBehaviour
     }
     public bool IsGrounded()
     {
-        Collider2D groundCheck = Physics2D.OverlapCircle(feet.position, 0.5f, groundLayers);
+        Collider2D groundCheck = Physics2D.OverlapCircle(feet.position, 0.15f, groundLayers);
         if (groundCheck!=null)
         {
+            return true;
+        }
+        return false;
+    }
+    public bool OnWall()
+    {
+        Collider2D wallCheckL = Physics2D.OverlapCircle(armL.position, 0.15f, groundLayers);
+        Collider2D wallCheckR = Physics2D.OverlapCircle(armR.position, 0.15f, groundLayers);
+        if (wallCheckL != null)
+        {
+            return true;
+        }
+        else if(wallCheckR != null){
             return true;
         }
         return false;
