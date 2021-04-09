@@ -15,18 +15,22 @@ public class PlayerMovement : MonoBehaviour
     float mx;
     bool isGrounded;
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    [HideInInspector] public bool isFacingRight =true;
 
-    }
-
-    // Update is called once per frame
     void Update()
     {
         mx = Input.GetAxisRaw("Horizontal");
         if (Input.GetButtonDown("Jump")&&((IsGrounded())||(OnWall()))){
             Jump();
+        }
+        
+        if (mx > 0f){
+            transform.localScale = new Vector3(1f, 2f, 1f);
+            isFacingRight = true;
+        }
+        else if (mx < 0f){
+            transform.localScale = new Vector3(-1f, 2f, 1f);
+            isFacingRight = false;
         }
     }
     private void FixedUpdate()
