@@ -21,20 +21,22 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        //allow to player to jump if they are on the ground or touching a wall
         mx = Input.GetAxisRaw("Horizontal");
         if (Input.GetButtonDown("Jump")&&((IsGrounded())||(OnWall()))){
             Jump();
         }
-        
+        //transform the sprite to face right if the player is moving right
         if (mx > 0f){
             transform.localScale = new Vector3(1f, 1f, 1f);
             isFacingRight = true;
         }
+        //transform the sprite to face left if the player is moving left
         else if (mx < 0f){
             transform.localScale = new Vector3(-1f, 1f, 1f);
             isFacingRight = false;
         }
-
+        //set the animation to running if the character is moving
         if (Mathf.Abs(mx) > 0.05f){
             anim.SetBool("isRunning", true);
         }
@@ -46,15 +48,18 @@ public class PlayerMovement : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        //move the player
         Vector2 movement = new Vector2(mx * movementSpeed, rb.velocity.y);
         rb.velocity = movement;
     }
+        //make the player jump
     void Jump() {
         Vector2 movement = new Vector2(rb.velocity.x, jumpForce);
         rb.velocity = movement;
     }
     public bool IsGrounded()
     {
+        //check if the player is touching the ground by using a sensor at the character's feet
         Collider2D groundCheck = Physics2D.OverlapCircle(feet.position, 0.15f, groundLayers);
         if (groundCheck!=null)
         {
@@ -64,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
     }
     public bool OnWall()
     {
+        //check if the the character is on a wall with sensors on their right and left sides
         Collider2D wallCheckL = Physics2D.OverlapCircle(armL.position, 0.15f, groundLayers);
         Collider2D wallCheckR = Physics2D.OverlapCircle(armR.position, 0.15f, groundLayers);
         if (wallCheckL != null)

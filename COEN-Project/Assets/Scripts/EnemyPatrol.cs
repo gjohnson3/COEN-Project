@@ -14,12 +14,15 @@ public class EnemyPatrol : MonoBehaviour
     
     RaycastHit2D hit;
 
+    //check if the enemy is hitting the gound
     private void Update(){
         hit = Physics2D.Raycast(groundCheck.position, -transform.up, 1f, groundLayers);
 
     }
 
+    
     private void FixedUpdate() {
+        //if the enemy is on the ground move right, but switch directions if the sensor in front of the enemy detects there is no ground ahead of it
         if (hit.collider != false){
             Debug.Log("hitting ground");
             if (isFacingRight)
@@ -31,6 +34,7 @@ public class EnemyPatrol : MonoBehaviour
                 rb.velocity = new Vector2(-speed, rb.velocity.y);
             }
         }
+        //if the enemy is not on the ground then transform it to go left
         else
         {
             isFacingRight = !isFacingRight;
@@ -39,6 +43,7 @@ public class EnemyPatrol : MonoBehaviour
         }
     }
 
+    //if the enemy collides with a bullet, destory the enemy
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Bullet"))

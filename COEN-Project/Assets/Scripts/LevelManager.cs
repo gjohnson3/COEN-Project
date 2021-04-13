@@ -21,11 +21,13 @@ public class LevelManager : MonoBehaviour
         instance = this;
     }
 
+    //method to repawn the player at the respawn point
     public void Respawn(){
         GameObject player=Instantiate(playerPrefab, respawnPoint.position, Quaternion.identity);
         cam.Follow = player.transform;
     }
     
+    //method to increase the currency count of the UI
     public void IncreaseCurrency(int amount)
     {
         currency += amount;
