@@ -25,11 +25,11 @@ public class PlayerMovement : MonoBehaviour
         }
         
         if (mx > 0f){
-            transform.localScale = new Vector3(1f, 2f, 1f);
+            transform.localScale = new Vector3(1f, 1f, 1f);
             isFacingRight = true;
         }
         else if (mx < 0f){
-            transform.localScale = new Vector3(-1f, 2f, 1f);
+            transform.localScale = new Vector3(-1f, 1f, 1f);
             isFacingRight = false;
         }
     }
