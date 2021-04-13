@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     public float movementSpeed;
     public Rigidbody2D rb;
 
+    public Animator anim;
+
     public float jumpForce = 20;
     public Transform feet;
     public Transform armR;
@@ -32,6 +34,15 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(-1f, 1f, 1f);
             isFacingRight = false;
         }
+
+        if (Mathf.Abs(mx) > 0.05f){
+            anim.SetBool("isRunning", true);
+        }
+        else{
+            anim.SetBool("isRunning", false);
+        }
+
+        anim.SetBool("isGrounded", IsGrounded());
     }
     private void FixedUpdate()
     {
