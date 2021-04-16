@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayers;
     float mx;
     bool isGrounded;
+    public float jumpRate = 0.5f;
+    float timeUntilJump;
 
     [HideInInspector] public bool isFacingRight =true;
 
@@ -23,8 +25,9 @@ public class PlayerMovement : MonoBehaviour
     {
         //allow to player to jump if they are on the ground or touching a wall
         mx = Input.GetAxisRaw("Horizontal");
-        if (Input.GetButtonDown("Jump")&&((IsGrounded())||(OnWall()))){
+        if (Input.GetButtonDown("Jump") && timeUntilJump < Time.time && ((IsGrounded())||(OnWall()))){
             Jump();
+            timeUntilJump = Time.time + jumpRate;
         }
         //transform the sprite to face right if the player is moving right
         if (mx > 0f){
