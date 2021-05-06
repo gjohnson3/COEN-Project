@@ -9,22 +9,24 @@ public class EnemyPatrol : MonoBehaviour
     public LayerMask groundLayers;
    
     public Transform groundCheck;
-    
+    public Transform WallCheck;
+
     bool isFacingRight = true;
     
     RaycastHit2D hit;
+    RaycastHit2D hit2;
 
     //check if the enemy is hitting the gound
     private void Update(){
         hit = Physics2D.Raycast(groundCheck.position, -transform.up, 1f, groundLayers);
-
+        hit2 = Physics2D.Raycast(WallCheck.position, transform.right, 1f, groundLayers);
     }
 
     
     private void FixedUpdate() {
         //if the enemy is on the ground move right, but switch directions if the sensor in front of the enemy detects there is no ground ahead of it
-        if (hit.collider != false){
-            Debug.Log("hitting ground");
+        if ((hit.collider != false)){
+            //Debug.Log("hitting ground");
             if (isFacingRight)
             {
                 rb.velocity = new Vector2(speed, rb.velocity.y);
@@ -39,7 +41,12 @@ public class EnemyPatrol : MonoBehaviour
         {
             isFacingRight = !isFacingRight;
             transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
-            Debug.Log("not hitting ground");
+            //Debug.Log("not hitting ground");
+        }
+        if ((hit2.collider != false))
+        {
+            isFacingRight = !isFacingRight;
+            transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
         }
     }
 
