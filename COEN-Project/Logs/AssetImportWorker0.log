@@ -1178,3 +1178,500 @@ System memory in use after: 93.7 MB.
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2557.
 Total: 2.624800 ms (FindLiveObjects: 0.332800 ms CreateObjectMapping: 0.108200 ms MarkObjects: 2.157700 ms  DeleteObjects: 0.023000 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 98.092968 seconds.
+  path: Assets/Prefabs/Fallthrough.prefab
+  artifactKey: Guid(a2894ce354967b94bade196201f526b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fallthrough.prefab using Guid(a2894ce354967b94bade196201f526b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdde34ff2cda5eab038e076693f82754') in 0.056938 seconds
+  Import took 0.063772 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.073 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.6 MB.
+System memory in use after: 93.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2561.
+Total: 2.115800 ms (FindLiveObjects: 0.214500 ms CreateObjectMapping: 0.073000 ms MarkObjects: 1.809900 ms  DeleteObjects: 0.017100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 841.490390 seconds.
+  path: Assets/Scenes/Test Level.unity
+  artifactKey: Guid(f2ead4f9d5b43ec42afc79445384f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test Level.unity using Guid(f2ead4f9d5b43ec42afc79445384f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81567f0c5c65bf21bbac57af8b07a41f') in 0.017457 seconds
+  Import took 0.024701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.116451 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78297c297db62f73803b3e6d8db237d6') in 0.004649 seconds
+  Import took 0.010172 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.931 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.6 MB.
+System memory in use after: 93.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2565.
+Total: 2.827300 ms (FindLiveObjects: 0.398300 ms CreateObjectMapping: 0.125900 ms MarkObjects: 2.283600 ms  DeleteObjects: 0.018200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001479 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.6 MB.
+System memory in use after: 93.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2568.
+Total: 2.148900 ms (FindLiveObjects: 0.295000 ms CreateObjectMapping: 0.087600 ms MarkObjects: 1.748200 ms  DeleteObjects: 0.017100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001444 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.6 MB.
+System memory in use after: 93.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2571.
+Total: 2.700300 ms (FindLiveObjects: 0.208900 ms CreateObjectMapping: 0.088900 ms MarkObjects: 2.383400 ms  DeleteObjects: 0.017700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 485.420248 seconds.
+  path: Assets/Scenes/Test Level.unity
+  artifactKey: Guid(f2ead4f9d5b43ec42afc79445384f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test Level.unity using Guid(f2ead4f9d5b43ec42afc79445384f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6e4ed2a8243f9c2953a2b182d881e5') in 0.012661 seconds
+  Import took 0.017542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.745159 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3197e178e8334a2f44c2bbf449c59c') in 0.006452 seconds
+  Import took 0.012237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.565165 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4a008a7f0f1cd336852230ad108f4a') in 0.005637 seconds
+  Import took 0.011063 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001457 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2574.
+Total: 2.201700 ms (FindLiveObjects: 0.198700 ms CreateObjectMapping: 0.068400 ms MarkObjects: 1.918700 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.864620 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafce5063a422d6933c63b74cf5d3cf7') in 0.014164 seconds
+  Import took 0.019506 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001757 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.049 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2577.
+Total: 2.280900 ms (FindLiveObjects: 0.228600 ms CreateObjectMapping: 0.086100 ms MarkObjects: 1.944700 ms  DeleteObjects: 0.020700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.119994 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e90bfc5bf90dcdaa296eb241d3bac1b') in 0.016413 seconds
+  Import took 0.021797 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001401 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2580.
+Total: 2.245500 ms (FindLiveObjects: 0.188000 ms CreateObjectMapping: 0.069500 ms MarkObjects: 1.970300 ms  DeleteObjects: 0.016500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.529120 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e4a91c349fc62708086291b751d39c') in 0.012391 seconds
+  Import took 0.017552 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001597 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2583.
+Total: 2.344000 ms (FindLiveObjects: 0.283500 ms CreateObjectMapping: 0.117000 ms MarkObjects: 1.924400 ms  DeleteObjects: 0.017400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001525 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.910 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2586.
+Total: 2.641400 ms (FindLiveObjects: 0.500700 ms CreateObjectMapping: 0.114100 ms MarkObjects: 2.008000 ms  DeleteObjects: 0.017200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 627.942855 seconds.
+  path: Assets/Scripts/NextLevel.cs
+  artifactKey: Guid(224b399e0b64b824da5be9e4b90291c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NextLevel.cs using Guid(224b399e0b64b824da5be9e4b90291c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff2bd9db1d38836a78b160f8bd119b2') in 0.036465 seconds
+  Import took 0.043783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.684961 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(6b44dbebd427ebf408f00655bf36057b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(6b44dbebd427ebf408f00655bf36057b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be3b603c8e893bfadc67ae209242647') in 0.005165 seconds
+  Import took 0.011424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(6b44dbebd427ebf408f00655bf36057b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(6b44dbebd427ebf408f00655bf36057b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be3b603c8e893bfadc67ae209242647') in 0.004365 seconds
+  Import took 0.009964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 203.381394 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d2a89863dca1de1ec5ecaf81b4a3a0') in 0.010516 seconds
+  Import took 0.015389 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001386 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2589.
+Total: 2.170000 ms (FindLiveObjects: 0.201900 ms CreateObjectMapping: 0.072400 ms MarkObjects: 1.875400 ms  DeleteObjects: 0.019100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001432 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2592.
+Total: 2.466400 ms (FindLiveObjects: 0.348500 ms CreateObjectMapping: 0.161300 ms MarkObjects: 1.936900 ms  DeleteObjects: 0.018600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001448 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2595.
+Total: 2.183300 ms (FindLiveObjects: 0.243000 ms CreateObjectMapping: 0.103600 ms MarkObjects: 1.819400 ms  DeleteObjects: 0.016200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 524.101993 seconds.
+  path: Assets/Scenes/Test Level.unity
+  artifactKey: Guid(f2ead4f9d5b43ec42afc79445384f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test Level.unity using Guid(f2ead4f9d5b43ec42afc79445384f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e6bf12005136dc02f58e239d1e1abb') in 0.012757 seconds
+  Import took 0.016447 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001445 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.024 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2598.
+Total: 2.480100 ms (FindLiveObjects: 0.192000 ms CreateObjectMapping: 0.072100 ms MarkObjects: 2.198300 ms  DeleteObjects: 0.016600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.130589 seconds.
+  path: Assets/Scenes/Level3.unity
+  artifactKey: Guid(efe3a341cc3079846a5c319c3720503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level3.unity using Guid(efe3a341cc3079846a5c319c3720503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ff3a94accd2c2bac44a5de8b3ac1e3') in 0.012141 seconds
+  Import took 0.016416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000797 seconds.
+  path: Assets/Scenes/Level3.unity
+  artifactKey: Guid(efe3a341cc3079846a5c319c3720503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level3.unity using Guid(efe3a341cc3079846a5c319c3720503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ff3a94accd2c2bac44a5de8b3ac1e3') in 0.004542 seconds
+  Import took 0.008455 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001514 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.218 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2601.
+Total: 2.337400 ms (FindLiveObjects: 0.239800 ms CreateObjectMapping: 0.084400 ms MarkObjects: 1.994900 ms  DeleteObjects: 0.016900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.725152 seconds.
+  path: Assets/Scenes/Level3.unity
+  artifactKey: Guid(efe3a341cc3079846a5c319c3720503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level3.unity using Guid(efe3a341cc3079846a5c319c3720503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3011f1d575a75f846fe900121a5c0f3c') in 0.014479 seconds
+  Import took 0.018798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.185632 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(f03206e53b467fe47b9dbb094b9ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1f5ba403bf9d24bf7929200c0824ff') in 0.005279 seconds
+  Import took 0.010126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.455768 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(adbb8fe2b07978f42aa020e7dd0da151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(adbb8fe2b07978f42aa020e7dd0da151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79c9ac740331a027a0155fcd109c0e4') in 0.004728 seconds
+  Import took 0.009384 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001462 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.103 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2604.
+Total: 2.680400 ms (FindLiveObjects: 0.290000 ms CreateObjectMapping: 0.112300 ms MarkObjects: 2.254800 ms  DeleteObjects: 0.021000 ms)
+
