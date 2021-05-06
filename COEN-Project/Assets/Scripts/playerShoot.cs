@@ -17,7 +17,7 @@ public class playerShoot : MonoBehaviour{
     private void Update()
     {
         //shoot when the button is pressed but not the cooldown hasn't ended
-        if (Input.GetMouseButtonDown(0) && timeUntilFire < Time.time)
+        if (Input.GetButtonDown("Fire1") && timeUntilFire < Time.time)
         {
             Shoot();
             timeUntilFire = Time.time + fireRate;
