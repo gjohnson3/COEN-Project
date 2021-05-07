@@ -10,9 +10,9 @@ public class PlayerMovement : MonoBehaviour
     public Animator anim;
 
     public float jumpForce = 20;
-    public Transform feet;
-    public Transform armR;
-    public Transform armL;
+    public BoxCollider2D feet;
+    public BoxCollider2D armR;
+    public BoxCollider2D armL;
     public LayerMask groundLayers;
     float mx;
     bool isGrounded;
@@ -63,23 +63,16 @@ public class PlayerMovement : MonoBehaviour
     public bool IsGrounded()
     {
         //check if the player is touching the ground by using a sensor at the character's feet
-        Collider2D groundCheck = Physics2D.OverlapCircle(feet.position, 0.15f, groundLayers);
-        if (groundCheck!=null)
-        {
-            return true;
-        }
-        return false;
+        bool groundCheck = Physics2D.IsTouchingLayers(feet, groundLayers);
+        return groundCheck;
     }
     public bool OnWall()
     {
         //check if the the character is on a wall with sensors on their right and left sides
-        Collider2D wallCheckL = Physics2D.OverlapCircle(armL.position, 0.15f, groundLayers);
-        Collider2D wallCheckR = Physics2D.OverlapCircle(armR.position, 0.15f, groundLayers);
-        if (wallCheckL != null)
+        bool wallCheckL = Physics2D.IsTouchingLayers(armL, groundLayers);
+        bool wallCheckR = Physics2D.IsTouchingLayers(armR, groundLayers);
+        if ((wallCheckL == true) || (wallCheckR == true))
         {
-            return true;
-        }
-        else if(wallCheckR != null){
             return true;
         }
         return false;

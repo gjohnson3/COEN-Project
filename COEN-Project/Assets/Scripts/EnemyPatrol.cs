@@ -43,7 +43,7 @@ public class EnemyPatrol : MonoBehaviour
             transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
             //Debug.Log("not hitting ground");
         }
-        if ((hit2.collider != false))
+        if (hit2.collider != false)
         {
             isFacingRight = !isFacingRight;
             transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
@@ -56,6 +56,11 @@ public class EnemyPatrol : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             Destroy(gameObject);
+        }
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            isFacingRight = !isFacingRight;
+            transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
         }
     }
 }
