@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level2.unity
     guid: adbb8fe2b07978f42aa020e7dd0da151
   - enabled: 1
+    path: Assets/Scenes/Parkour.unity
+    guid: 89907a7fab0d00d41914db614f7315c3
+  - enabled: 1
     path: Assets/Scenes/EndLevel.unity
     guid: 9f81e7dd76519894d9084b23d55f0bac
   - enabled: 0

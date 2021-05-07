@@ -56,6 +56,7 @@ public class EnemyPatrol : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             Destroy(gameObject);
+            LevelManager.instance.IncreaseCurrency(5);
         }
         if (collision.gameObject.CompareTag("Enemy"))
         {

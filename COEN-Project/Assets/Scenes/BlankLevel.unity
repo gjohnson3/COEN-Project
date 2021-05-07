@@ -430,7 +430,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168712480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.2894416, y: -0.005117893, z: -10}
+  m_LocalPosition: {x: 0.0004210472, y: -0.005121708, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -934,6 +934,9 @@ MonoBehaviour:
   respawnPoint: {fileID: 773760793}
   playerPrefab: {fileID: 2618472550095217252, guid: 3edd4783a8ae6d04cad6582d9edcb679,
     type: 3}
+  noiseC: {fileID: 0}
+  noiseA: {fileID: 0}
+  noiseD: {fileID: 0}
   cam: {fileID: 832097455}
   currency: 0
   CurrencyUI: {fileID: 52048642}
@@ -1227,7 +1230,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832097453}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.2894416, y: -0.005117893, z: -10}
+  m_LocalPosition: {x: 0.0004210472, y: -0.005121708, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1304784268}
@@ -2042,8 +2045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iLevelToLoad: 1
-  SLevelToLoad: 
-  useIntegerToLoadLevel: 1
+  noise: {fileID: 0}
 --- !u!4 &1442161163 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2206496362338176600, guid: 90ccbfee56ee5074ea73ae1305d0c90d,
