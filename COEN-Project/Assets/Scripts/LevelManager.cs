@@ -41,7 +41,7 @@ public class LevelManager : MonoBehaviour
     public void IncreaseAmmo(int amount)
     {
         ammunition += amount;
-        AmmoUI.text = "Bullets: " + ammunition;
+        AmmoUI.text = "Ammo: " + ammunition;
     }
 
 
