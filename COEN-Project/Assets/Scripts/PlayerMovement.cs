@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     bool isGrounded;
     public float jumpRate = 0.5f;
     float timeUntilJump;
+    public AudioSource jump;
 
     [HideInInspector] public bool isFacingRight =true;
 
@@ -59,6 +60,7 @@ public class PlayerMovement : MonoBehaviour
     void Jump() {
         Vector2 movement = new Vector2(rb.velocity.x, jumpForce);
         rb.velocity = movement;
+        jump.Play();
     }
     public bool IsGrounded()
     {

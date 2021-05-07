@@ -10,6 +10,9 @@ public class LevelManager : MonoBehaviour
 
     public Transform respawnPoint;
     public GameObject playerPrefab;
+    public AudioSource noiseC;
+    public AudioSource noiseA;
+    public AudioSource noiseD;
 
     public CinemachineVirtualCameraBase cam;
 
@@ -29,6 +32,7 @@ public class LevelManager : MonoBehaviour
     public void Respawn(){
         GameObject player=Instantiate(playerPrefab, respawnPoint.position, Quaternion.identity);
         cam.Follow = player.transform;
+        noiseD.Play();
     }
     
     //method to increase the currency count of the UI
@@ -36,9 +40,21 @@ public class LevelManager : MonoBehaviour
     {
         currency += amount;
         CurrencyUI.text = "$" + currency;
+        noiseC.Play();
+    }
+    public void DecreaseCurrency(int amount)
+    {
+        currency += amount;
+        CurrencyUI.text = "$" + currency;
     }
 
     public void IncreaseAmmo(int amount)
+    {
+        ammunition += amount;
+        AmmoUI.text = "Ammo: " + ammunition;
+        noiseA.Play();
+    }
+    public void DecreaseAmmo(int amount)
     {
         ammunition += amount;
         AmmoUI.text = "Ammo: " + ammunition;

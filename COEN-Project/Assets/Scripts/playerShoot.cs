@@ -34,7 +34,7 @@ public class playerShoot : MonoBehaviour{
         //spawn the default bullet if facing right. Flip the bullet to fly left if the character is facing left
         float angle = pm.isFacingRight ? 0f : 180f; 
         Instantiate(bulletPrefab, GunPoint.position, Quaternion.Euler(new Vector3(1f, 1f, angle)));
-        LevelManager.instance.IncreaseAmmo(-1);
+        LevelManager.instance.DecreaseAmmo(-1);
         ammo -= 1;
     }
 
