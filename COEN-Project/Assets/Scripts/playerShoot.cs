@@ -42,5 +42,9 @@ public class playerShoot : MonoBehaviour{
     {
         ammo += Amount;
     }
+    public static void resetAmmo()
+    {
+        ammo = 0;
+    }
 
 }

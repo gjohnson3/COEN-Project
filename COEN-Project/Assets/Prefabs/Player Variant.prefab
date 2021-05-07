@@ -26,6 +26,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1962785448665527711, guid: 5447ec7b322edd74dae846e943e91a3c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1962785449141184937, guid: 5447ec7b322edd74dae846e943e91a3c,
         type: 3}
       propertyPath: anim
@@ -34,7 +39,7 @@ PrefabInstance:
     - target: {fileID: 1962785449141184978, guid: 5447ec7b322edd74dae846e943e91a3c,
         type: 3}
       propertyPath: m_Name
-      value: Player Variant
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1962785449141184980, guid: 5447ec7b322edd74dae846e943e91a3c,
         type: 3}
@@ -74,12 +79,12 @@ PrefabInstance:
     - target: {fileID: 1962785449141184982, guid: 5447ec7b322edd74dae846e943e91a3c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.93
+      value: -8.12
       objectReference: {fileID: 0}
     - target: {fileID: 1962785449141184982, guid: 5447ec7b322edd74dae846e943e91a3c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.89
+      value: -5.75
       objectReference: {fileID: 0}
     - target: {fileID: 1962785449141184982, guid: 5447ec7b322edd74dae846e943e91a3c,
         type: 3}
