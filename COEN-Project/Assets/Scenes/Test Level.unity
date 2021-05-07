@@ -201,7 +201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168712480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0004210472, y: -0.005121708, z: -10}
+  m_LocalPosition: {x: 4.2894416, y: -0.005117893, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -945,7 +945,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832097453}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0004210472, y: -0.005121708, z: -10}
+  m_LocalPosition: {x: 4.2894416, y: -0.005117893, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1304784268}
@@ -2990,6 +2990,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fallthrough
       objectReference: {fileID: 0}
+    - target: {fileID: 7026854645461389615, guid: a2894ce354967b94bade196201f526b0,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1552636164049262176, guid: 884b3f34e74635b4a9fda0aebcb23474,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2894ce354967b94bade196201f526b0, type: 3}
 --- !u!1001 &7892053920478801394

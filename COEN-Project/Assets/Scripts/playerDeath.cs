@@ -12,6 +12,7 @@ public class playerDeath : MonoBehaviour
         {
                 Destroy(gameObject);
                 LevelManager.instance.Respawn();
+                LevelManager.instance.IncreaseCurrency(-100);
         }
     }
 }

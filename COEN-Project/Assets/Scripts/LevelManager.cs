@@ -17,6 +17,10 @@ public class LevelManager : MonoBehaviour
     public int currency = 0;
     public Text CurrencyUI;
 
+    [Header("Ammo")]
+    public int ammunition = 0;
+    public Text AmmoUI;
+
     private void Awake(){
         instance = this;
     }
@@ -32,6 +36,12 @@ public class LevelManager : MonoBehaviour
     {
         currency += amount;
         CurrencyUI.text = "$" + currency;
+    }
+
+    public void IncreaseAmmo(int amount)
+    {
+        ammunition += amount;
+        AmmoUI.text = "Bullets: " + ammunition;
     }
 
 
